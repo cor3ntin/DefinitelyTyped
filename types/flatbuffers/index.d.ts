@@ -167,7 +167,7 @@ declare global {
        */
       endObject(): Offset;
 
-      finish(root_table: Offset, file_identifier?: string): void;
+      finish(root_table: Offset, file_identifier?: string, file_identifier?: string, add_size_prefix?: bool): void;
 
       /**
        * This checks a required field has been set in a given table that has
